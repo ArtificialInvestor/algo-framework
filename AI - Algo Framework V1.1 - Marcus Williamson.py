@@ -402,7 +402,7 @@ class PortfolioManagerWeighted(PortfolioManager):
                 #add target allocation to target portfolio
                 
                 
-        alpha.alloc = dict() #reset dictionary to get rid of old entries now in target portfolio
+            alpha.alloc = dict() #reset dictionary to get rid of old entries now in target portfolio
         
         port_value = context.portfolio.portfolio_value #geting portfolio value
         
